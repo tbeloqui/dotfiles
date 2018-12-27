@@ -23,6 +23,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-eunuch'
 Plugin 'itchyny/lightline.vim'
 Plugin 'jlanzarotta/bufexplorer'
+Plugin 'rr-/vim-hexdec'
 call vundle#end()
 
 let mapleader=","
@@ -98,4 +99,3 @@ let g:formatdef_gstindent_c = '"/home/tulio/Develop/pexip/mcu/media/gst-plugins-
 let g:formatters_c = ['gstindent_c']
 
 au BufRead,BufNewFile *.h set filetype=c
-

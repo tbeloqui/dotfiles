@@ -1,0 +1,47 @@
+URxvt*termName: screen-256color
+URxvt*geometry: 240x84
+URxvt*loginShell: true
+URxvt*scrollstyle: plain
+URxvt*scrollTtyKeypress: true
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: false
+URxvt*secondaryScreen: true
+URxvt*secondaryScroll: true
+URxvt*skipScroll: true
+URxvt*scrollBar: false
+URxvt*scrollBar_right: false
+URxvt*scrollBar_floating: false
+URxvt*fading: 30
+URxvt*utmpInhibit: false
+URxvt*urgentOnBell: false
+URxvt*visualBell: true
+URxvt*mapAlert: true
+URxvt*mouseWheelScrollPage: false
+URxvt*intensityStyles: false
+URxvt.font:xft:DejaVu Sans Mono:pixelsize=12
+URxvt.boldfont:xft:DejaVu Sans Mono-Bold:pixelsize=12
+URxvt*saveLines: 0
+URxvt*buffered: true
+URxvt*hold: false
+URxvt*internalBorder:
+URxvt.perl-ext-common : default,matcher
+URxvt.urlLauncher   :firefox
+URxvt.matcher.button:1
+URxvt*background: #eeeeee
+URxvt*foreground: #4d4d4C
+URxvt.color0:#eeeeee
+URxvt.color1:#8959A8
+URxvt.color2:#718C00
+URxvt.color3:#4271AE
+URxvt.color4:#005F87
+URxvt.color5:#D7005F
+URxvt.color6:#3E999F
+URxvt.color7:#D0D0D0
+URxvt.color8:#808080
+URxvt.color9:#8959A8
+URxvt.color10:#718C00
+URxvt.color11:#4271AE
+URxvt.color12:#005F87
+URxvt.color13:#D7005F
+URxvt.color14:#3E999F
+URxvt.color15:#262626
