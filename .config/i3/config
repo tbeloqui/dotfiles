@@ -1,14 +1,17 @@
+for_window [class="^.*"] border pixel 1
+
 set $mod Mod4
 
-# Font for window titles. Will also be used by the bar unless a different font
-# is used in the bar {} block below.
-font pango:monospace 8
+font xft:DejaVu Sans Mono 11px
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# start a terminal with tmux
+bindsym $mod+Return exec rxvt-unicode -e sh -c "tmux attach || tmux -2"
+
 # start a terminal
-bindsym $mod+Return exec rxvt-unicode -e sh -c "tmux -2"
+bindsym $mod+Shift+Return exec rxvt-unicode
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -96,24 +99,24 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
+# These bindings trigger as soon as you enter the resize mode
 
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
+# Pressing left will shrink the window’s width.
+# Pressing right will grow the window’s width.
+# Pressing up will shrink the window’s height.
+# Pressing down will grow the window’s height.
+    bindsym j resize shrink width 10 px or 10 ppt
         bindsym k resize grow height 10 px or 10 ppt
         bindsym l resize shrink height 10 px or 10 ppt
         bindsym ntilde resize grow width 10 px or 10 ppt
 
-        # same bindings, but for the arrow keys
+# same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
         bindsym Down resize grow height 10 px or 10 ppt
         bindsym Up resize shrink height 10 px or 10 ppt
         bindsym Right resize grow width 10 px or 10 ppt
 
-        # back to normal: Enter or Escape
+# back to normal: Enter or Escape
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
@@ -123,19 +126,24 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3status
+    status_command i3status
 }
 
 # bindsym $mod+Shift+l exec "gnome-screensaver-command -l"
 
-exec --no-startup-id gnome-settings-daemon
+
 # start network-manager applet
 exec --no-startup-id nm-applet
+exec --no-startup-id volumeicon
+exec --no-startup-id gnome-settings-daemon
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer sset Master 5%+
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer sset Master 5%-
 bindsym XF86AudioMute exec --no-startup-id amixer sset Master toggle
 
-bindsym XF86MonBrigthnessUp exec --no-startup-id xbacklight -inc 20
-bindsym XF86MonBrigthnessDown exec --no-startup-id xbacklight -dec 20
+bindsym XF86MonBrightnessUp exec "/home/fr30n/.scripts/set_bright.sh +"
+bindsym XF86MonBrightnessDown exec "/home/fr30n/.scripts/set_bright.sh -"
+
+assign [class="(?i)firefox"] workspace 3
+assign [class="(?i)nautilus"] workspace 4
 
