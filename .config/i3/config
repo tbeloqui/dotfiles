@@ -8,7 +8,7 @@ font xft:DejaVu Sans Mono 11px
 floating_modifier $mod
 
 # start a terminal with tmux
-bindsym $mod+Return exec rxvt-unicode -e sh -c "tmux attach || tmux -2"
+bindsym $mod+Return exec rxvt-unicode -e sh -c "tmux attach -d || tmux -2"
 
 # start a terminal
 bindsym $mod+Shift+Return exec rxvt-unicode
@@ -131,11 +131,10 @@ bar {
 
 # bindsym $mod+Shift+l exec "gnome-screensaver-command -l"
 
-
 # start network-manager applet
 exec --no-startup-id nm-applet
-exec --no-startup-id volumeicon
 exec --no-startup-id gnome-settings-daemon
+exec --no-startup-id volumeicon
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer sset Master 5%+
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer sset Master 5%-
