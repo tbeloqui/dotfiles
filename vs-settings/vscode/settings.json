@@ -1,0 +1,31 @@
+{
+    "editor.fontFamily": "DejaVu Sans Mono",
+    "editor.fontSize": 13,
+    "terminal.integrated.fontFamily": "DejaVu Sans Mono",
+    "terminal.integrated.fontSize": 13,
+    "workbench.colorTheme": "PaperColor Redux",
+    "vim.leader": ",",
+    "vim.easymotion": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.incsearch": true,
+    "window.zoomLevel": 0,
+    "git.detectSubmodules": false,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": false,
+    "vim.autoindent": true,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "C_Cpp.formatting": "Disabled",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*~": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "mesonbuild.configureOnOpen": false
+}
