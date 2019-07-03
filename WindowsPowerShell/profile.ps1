@@ -9,3 +9,5 @@ $colors.warningbackgroundcolor = "DarkYellow"
 $colors.warningforegroundcolor = "Yellow"
 $colors.ErrorBackgroundColor = "DarkYellow"
 $colors.ErrorForegroundColor = "Red"
+
+$GitPromptSettings.EnableFileStatus = $false
