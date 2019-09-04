@@ -18,8 +18,8 @@ URxvt*visualBell: true
 URxvt*mapAlert: true
 URxvt*mouseWheelScrollPage: false
 URxvt*intensityStyles: false
-URxvt.font:xft:DejaVu Sans Mono:pixelsize=12
-URxvt.boldfont:xft:DejaVu Sans Mono-Bold:pixelsize=12
+URxvt.font:xft:DejaVu Sans Mono:pixelsize=13
+URxvt.boldfont:xft:DejaVu Sans Mono-Bold:pixelsize=13
 URxvt*saveLines: 0
 URxvt*buffered: true
 URxvt*hold: false
@@ -27,6 +27,8 @@ URxvt*internalBorder:
 URxvt.perl-ext-common : default,matcher
 URxvt.urlLauncher   :firefox
 URxvt.matcher.button:1
+
+
 URxvt*background: #eeeeee
 URxvt*foreground: #4d4d4C
 URxvt.color0:#eeeeee
@@ -45,3 +47,4 @@ URxvt.color12:#005F87
 URxvt.color13:#D7005F
 URxvt.color14:#3E999F
 URxvt.color15:#262626
+
