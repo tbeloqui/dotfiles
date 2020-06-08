@@ -1,5 +1,4 @@
 URxvt*termName: screen-256color
-URxvt*geometry: 240x84
 URxvt*loginShell: true
 URxvt*scrollstyle: plain
 URxvt*scrollTtyKeypress: true
@@ -18,8 +17,8 @@ URxvt*visualBell: true
 URxvt*mapAlert: true
 URxvt*mouseWheelScrollPage: false
 URxvt*intensityStyles: false
-URxvt.font:xft:DejaVu Sans Mono:pixelsize=13
-URxvt.boldfont:xft:DejaVu Sans Mono-Bold:pixelsize=13
+URxvt.font:xft:DejaVu Sans Mono:pixelsize=12
+URxvt.boldfont:xft:DejaVu Sans Mono-Bold:pixelsize=12
 URxvt*saveLines: 0
 URxvt*buffered: true
 URxvt*hold: false
