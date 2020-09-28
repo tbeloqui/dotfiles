@@ -1,0 +1,12 @@
+{
+	// "color_scheme": "Packages/Colorsublime-Themes/3024_Day.tmTheme",
+	"color_scheme" :"Packages/Colorsublime-Themes/base16-papercolor-light.tmTheme",
+	"ignored_packages":
+	[
+	],
+	"theme": "Default.sublime-theme",
+	"vintage_start_in_command_mode": true,
+	"font_face": "Dejavu Sans Mono",
+	"font_size": 10,
+	"vintage_ctrl_keys": true
+}
