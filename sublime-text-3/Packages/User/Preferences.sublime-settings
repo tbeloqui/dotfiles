@@ -1,10 +1,10 @@
 {
-	"color_scheme" :"Packages/Colorsublime-Themes/base16-papercolor-light.tmTheme",
+	"color_scheme": "Packages/Colorsublime-Themes/base16-papercolor-light.tmTheme",
+	"font_face": "Dejavu Sans Mono",
+	"font_size": 10,
 	"ignored_packages":
 	[
 	],
 	"theme": "Default.sublime-theme",
-	"vintage_start_in_command_mode": true,
-	"font_face": "Dejavu Sans Mono",
-	"font_size": 10,
+	"vintage_start_in_command_mode": true
 }
