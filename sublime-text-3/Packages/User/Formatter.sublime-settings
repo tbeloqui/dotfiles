@@ -67,73 +67,73 @@
        		"format_on_save" : true,
        		"syntaxes" : ["c"],
        		"executable_path": "${packages}/User/formatter.assets/indent",
-       		"args": [
-       			"--braces-on-if-line",
-       			"--case-brace-indentation0",
-       			"--case-indentation2",
-       			"--braces-after-struct-decl-line",
-       			"--line-length80",
-       			"--no-tabs",
-       			"--cuddle-else",
-       			"--dont-line-up-parentheses",
-       			"--continuation-indentation4",
-       			"--honour-newlines",
-       			"--tab-size8",
-       			"--indent-level2",
-       			"--leave-preprocessor-space"
-       		]
+       		// "args": [
+       		// 	"--braces-on-if-line",
+       		// 	"--case-brace-indentation0",
+       		// 	"--case-indentation2",
+       		// 	"--braces-after-struct-decl-line",
+       		// 	"--line-length80",
+       		// 	"--no-tabs",
+       		// 	"--cuddle-else",
+       		// 	"--dont-line-up-parentheses",
+       		// 	"--continuation-indentation4",
+       		// 	"--honour-newlines",
+       		// 	"--tab-size8",
+       		// 	"--indent-level2",
+       		// 	"--leave-preprocessor-space"
+       		// ]
        	},
 
-        "beautysh": {
-            "disable": false,
-            "format_on_save": false,
-            "syntaxes": ["bash"],
-            "executable_path": "${packages}/User/formatter.assets/python/bin/beautysh",
-            "config_path": {
-                "default": "${packages}/User/formatter.assets/config/beautyshrc.json"
-            }
-        },
-        "black": {
-            "disable": false,
-            "format_on_save": false,
-            "syntaxes": ["python"],
-            "executable_path": "${packages}/User/formatter.assets/python/bin/black",
-            "config_path": {
-                "default": "${packages}/User/formatter.assets/config/blackrc.toml"
-            }
-        },
-        "clangformat": {
-            "disable": false,
-            "format_on_save": false,
-            "syntaxes": ["c++", "objc", "objc++", "js", "java", "proto"],
-            "executable_path": "${packages}/User/formatter.assets/bin/clang-format",
-            "config_path": {
-                "default": "${packages}/User/formatter.assets/config/clangformatrc.yaml"
-            }
-        },
+        // "beautysh": {
+        //     "disable": false,
+        //     "format_on_save": false,
+        //     "syntaxes": ["bash"],
+        //     "executable_path": "${packages}/User/formatter.assets/python/bin/beautysh",
+        //     "config_path": {
+        //         "default": "${packages}/User/formatter.assets/config/beautyshrc.json"
+        //     }
+        // },
+        // "black": {
+        //     "disable": false,
+        //     "format_on_save": false,
+        //     "syntaxes": ["python"],
+        //     "executable_path": "${packages}/User/formatter.assets/python/bin/black",
+        //     "config_path": {
+        //         "default": "${packages}/User/formatter.assets/config/blackrc.toml"
+        //     }
+        // },
+        // "clangformat": {
+        //     "disable": false,
+        //     "format_on_save": false,
+        //     "syntaxes": ["c++", "objc", "objc++", "js", "java", "proto"],
+        //     "executable_path": "${packages}/User/formatter.assets/bin/clang-format",
+        //     "config_path": {
+        //         "default": "${packages}/User/formatter.assets/config/clangformatrc.yaml"
+        //     }
+        // },
      
-        "jsonmax": {
-            "disable": false,
-            "format_on_save": false,
-            "syntaxes": ["json"],
-            "config_path": {
-                "default": "${packages}/User/formatter.assets/config/jsonmaxrc.json"
-            }
-        },
-        "jsonmin": {
-            "disable": false,
-            "format_on_save": false,
-            "syntaxes": ["json"]
-            /* no config */
-        },
-        "terser": {
-            "disable": false,
-            "format_on_save": false,
-            "syntaxes": ["js"],
-            "executable_path": "${packages}/User/formatter.assets/javascript/node_modules/.bin/terser",
-            "config_path": {
-                "default": "${packages}/User/formatter.assets/config/terserrc.json"
-            }
-        }
+        // "jsonmax": {
+        //     "disable": false,
+        //     "format_on_save": false,
+        //     "syntaxes": ["json"],
+        //     "config_path": {
+        //         "default": "${packages}/User/formatter.assets/config/jsonmaxrc.json"
+        //     }
+        // },
+        // "jsonmin": {
+        //     "disable": false,
+        //     "format_on_save": false,
+        //     "syntaxes": ["json"]
+        //     /* no config */
+        // },
+        // "terser": {
+        //     "disable": false,
+        //     "format_on_save": false,
+        //     "syntaxes": ["js"],
+        //     "executable_path": "${packages}/User/formatter.assets/javascript/node_modules/.bin/terser",
+        //     "config_path": {
+        //         "default": "${packages}/User/formatter.assets/config/terserrc.json"
+        //     }
+        // }
     }
 }
