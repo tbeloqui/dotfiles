@@ -7,5 +7,6 @@
 	],
 	"theme": "Default.sublime-theme",
 	"vintage_start_in_command_mode": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"highlight_line": true
 }
