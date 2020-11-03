@@ -1,10 +1,8 @@
 #!/bin/bash
 
 dunst &
-#parcellite &
-#pnmixer &
 nm-applet &
-#xfce4-volumed &
+xfce4-volumed &
 slack --force-device-scale-factor=1 &
 firefox &
 #feh --bg-scale $HOME/Pictures/wallpaper.png &
