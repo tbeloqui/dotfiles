@@ -1,0 +1,6 @@
+[
+	{ "keys": ["ctrl+k", "ctrl+c"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+u"], "command": "scroll_lines", "args": {"amount": 10.0 } },
+	{ "keys": ["ctrl+d"], "command": "scroll_lines", "args": {"amount": -10.0 } },
+	{ "keys": ["ctrl+k", "ctrl+d"], "command": "external_tools_run", "args": { "cmd": ["indent", "--braces-on-if-line", "--case-brace-indentation", "0", "--case-indentation", "2", "--braces-after-struct-decl-line", "--line-length", "80", "--no-tabs", "--cuddle-else", "--dont-line-up-parentheses", "--continuation-indentation", "4", "--honour-newlines", "--tab-size", "8", "--indent-level", "2", "--leave-preprocessor-space", "$file"]}}
+]
