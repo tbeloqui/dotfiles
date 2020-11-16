@@ -542,6 +542,59 @@
 				<string>#262626</string>
 			</dict>
 		</dict>
+
+		<!-- GstreamerLog -->
+		<dict>
+			<key>scope</key>
+			<string>gst.log level.error</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#d7005f</string>
+				<key>foreground</key>
+				<string>#eff484</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>gst.log level.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#d7005f</string>
+				<key>foreground</key>
+				<string>#eff484</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>gst.log level.info</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#005f87</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>gst.log filename</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#718c00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>gst.log timestamp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#718c00</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>35521108-320c-4e02-9560-a3279cd3fa78</string>

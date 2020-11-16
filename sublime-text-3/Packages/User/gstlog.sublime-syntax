@@ -1,0 +1,30 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+file_extensions:
+  - log
+
+name: GstreamerLog
+scope: gst.log
+contexts:
+
+  main:
+    # - match: '\b(ERROR|WARNING|FIXME|INFO|DEBUG|LOG|TRACE|MEMDUMP)\b'
+    #   scope:  level.error
+
+    - match: '\b(WARNING)\b'
+      scope: level.warning
+
+    - match: '\b(ERROR)\b'
+      scope: level.error
+
+    - match: '\b(INFO)\b'
+      scope: level.info
+
+    - match: '\b(\w)*\.c\b'
+      scope: filename
+
+    # - match: '\b.*[ERROR|WARNING|FIXME|INFO|DEBUG|LOG|TRACE|MEMDUMP].*(\d{1,}:\d{2,}\:\d{2,}\.\d{9,})\b'
+    #   # scope: timestamp
+    #   captures:
+    #       1: timestamp
