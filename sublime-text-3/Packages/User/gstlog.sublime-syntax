@@ -12,7 +12,7 @@ contexts:
     # - match: '\b(ERROR|WARNING|FIXME|INFO|DEBUG|LOG|TRACE|MEMDUMP)\b'
     #   scope:  level.error
 
-    - match: '\b(WARNING)\b'
+    - match: '\b(WARNING|WARN)\b'
       scope: level.warning
 
     - match: '\b(ERROR)\b'
