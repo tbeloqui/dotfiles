@@ -6,6 +6,8 @@ Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
 
+dwm.resizehints: 0
+
 URxvt*termName: screen-256color
 URxvt*loginShell: true
 URxvt*scrollstyle: plain
@@ -36,22 +38,41 @@ URxvt.urlLauncher   :firefox
 URxvt.matcher.button:1
 
 
-URxvt*background: #eeeeee
-URxvt*foreground: #4d4d4C
-URxvt.color0:#eeeeee
-URxvt.color1:#8959A8
-URxvt.color2:#718C00
-URxvt.color3:#4271AE
-URxvt.color4:#005F87
-URxvt.color5:#D7005F
-URxvt.color6:#3E999F
-URxvt.color7:#D0D0D0
-URxvt.color8:#808080
-URxvt.color9:#8959A8
-URxvt.color10:#718C00
-URxvt.color11:#4271AE
-URxvt.color12:#005F87
-URxvt.color13:#D7005F
-URxvt.color14:#3E999F
-URxvt.color15:#262626
+! URxvt*background: #eeeeee
+! URxvt*foreground: #4d4d4C
+! URxvt.color0:#eeeeee
+! URxvt.color1:#8959A8
+! URxvt.color2:#718C00
+! URxvt.color3:#4271AE
+! URxvt.color4:#005F87
+! URxvt.color5:#D7005F
+! URxvt.color6:#3E999F
+! URxvt.color7:#D0D0D0
+! URxvt.color8:#808080
+! URxvt.color9:#8959A8
+! URxvt.color10:#718C00
+! URxvt.color11:#4271AE
+! URxvt.color12:#005F87
+! URxvt.color13:#D7005F
+! URxvt.color14:#3E999F
+! URxvt.color15:#262626
 
+URxvt.color0: #3B444F
+URxvt.color8: #4A585A
+URxvt.color1: #D8B795
+URxvt.color9: #D8B795
+URxvt.color2: #A5AF86
+URxvt.color10: #BDC79E
+URxvt.color3: #CD7860
+URxvt.color11: #E88773
+URxvt.color4: #7A9388
+URxvt.color12: #94B1A3
+URxvt.color5: #75434C
+URxvt.color13: #BB6C73
+URxvt.color6: #767D75
+URxvt.color14: #9DA69E
+URxvt.color7: #C2C2A8
+URxvt.color15: #DBDAC1
+URxvt.background: #252525
+URxvt.foreground: #a3a6ab
+URxvt..colorUL: #95b9cc
