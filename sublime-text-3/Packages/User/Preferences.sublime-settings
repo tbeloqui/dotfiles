@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Theme - Cyanide/Cyanide - Mint - Contrasted Semi.tmTheme",
+	"color_scheme": "Packages/Theme - Cyanide/Cyanide - Mint - Contrasted Light.tmTheme",
 	"font_face": "Dejavu Sans Mono",
 	"font_size": 10,
 	"highlight_line": true,
@@ -8,5 +8,5 @@
 	],
 	"theme": "Cyanide - Mint.sublime-theme",
 	"vintage_start_in_command_mode": true,
-	"word_wrap": true
+	"word_wrap": true,
 }
